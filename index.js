@@ -13,6 +13,7 @@ const db = mysql.createConnection(
     console.log(`Connected to the employee_db database.`)
 ).promise();
 
+// main menu function
 const mainMenu = async () => {
     const { choice } = await prompt([
         {
